@@ -40,12 +40,14 @@ public class Main {
                 time = (sec * num);
                 System.out.println("The time required is: " + time + " seconds:");
             }
+            //this seems unnecessary.. the else block.
             else{}
 
         }
         while ( numm != 3);
 
-
+//class and javadoc missing furthermore there is a lot of code duplication. Try to avoid code duplicates; 
+        //either break things in different methods or group the code in a mature logical workflow.
 
 
     }
